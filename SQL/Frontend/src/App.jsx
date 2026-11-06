@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 
-const API = import.meta.env.VITE_API_URL || "http://127.0.0.1:5000";
+const API = "https://montesino-orm-con-react-3.onrender.com";
 
 function App() {
   const [seccion, setSeccion] = useState("productos");
